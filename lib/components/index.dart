@@ -27,6 +27,10 @@ class Component extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, 'component/switch_checkbox'),
               child: const Text('单选开关和复选框')),
+          ElevatedButton(
+              onPressed: () =>
+                  Navigator.pushNamed(context, 'component/input_form'),
+              child: const Text('输入框及表单')),
         ],
       )),
     );

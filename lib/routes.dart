@@ -7,6 +7,7 @@ import './components/text_demo.dart';
 import './components/button_demo.dart';
 import './components/image_icon.dart';
 import './components/switch_checkbox_demo.dart';
+import './components/input_form_demo.dart';
 import 'main.dart';
 
 class MyRouter {
@@ -18,6 +19,7 @@ class MyRouter {
     'component/button': (context) => const ButtonDemo(),
     'component/image': (context) => const ImageIconDemo(),
     'component/switch_checkbox': (context) => const SwitchCheckboxDemo(),
+    'component/input_form': (context) => const InputFormDemo(),
     // 'user': (context) => const UserPage(),
   };
 
