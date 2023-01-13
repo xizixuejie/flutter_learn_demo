@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
+import './components/button_demo.dart';
+import './components/form_demo.dart';
+import './components/image_icon.dart';
+import './components/index.dart';
+import './components/input_demo.dart';
+import './components/progress_demo.dart';
+import './components/switch_checkbox_demo.dart';
+import './components/text_demo.dart';
 import './pages/new_page.dart';
 import './pages/user.dart';
-import './components/index.dart';
-import './components/text_demo.dart';
-import './components/button_demo.dart';
-import './components/image_icon.dart';
-import './components/switch_checkbox_demo.dart';
-import './components/input_demo.dart';
-import './components/form_demo.dart';
 import 'main.dart';
 
 class MyRouter {
@@ -22,6 +23,7 @@ class MyRouter {
     'component/switch_checkbox': (context) => const SwitchCheckboxDemo(),
     'component/input': (context) => const InputDemo(),
     'component/form': (context) => const FormDemo(),
+    'component/progress': (context) => const ProgressDemo(),
     // 'user': (context) => const UserPage(),
   };
 

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'form_demo.dart';
-
 /// 基础组件学习
 
 class Component extends StatelessWidget {
@@ -35,6 +33,10 @@ class Component extends StatelessWidget {
           ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, 'component/form'),
               child: const Text('表单')),
+          ElevatedButton(
+              onPressed: () =>
+                  Navigator.pushNamed(context, 'component/progress'),
+              child: const Text('进度条')),
         ],
       )),
     );
